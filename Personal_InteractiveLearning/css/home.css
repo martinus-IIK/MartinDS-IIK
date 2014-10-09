@@ -1,0 +1,42 @@
+/* CSS Document */
+@charset "utf-8";
+
+.main-select {
+	background:rgba(255,220,170,1.00);
+	margin:25px 25px;
+	border:1px #FF8E00 solid;
+	border-radius: 15px;
+}
+
+.main-select table{
+	margin-left: 50px;
+	margin-right: 50px;
+	width: auto;
+	padding-bottom:0;
+}
+
+.main-select .td-left{
+	width: 200px;
+	height: 100px;
+	text-align:left;	
+}
+
+.main-select input[type=button]{
+	position:relative;
+	width:80px;
+	padding:5px 5px 5px 5px;
+	font-weight:bold;
+	text-align:center;	
+	border:1px solid;
+	color:#FF850C;
+	background:#FFE3C7;
+	bottom:10px;
+}
+
+#btn_course{
+	left:-15px;
+}
+
+#btn_quiz{
+	left:-10px;
+}

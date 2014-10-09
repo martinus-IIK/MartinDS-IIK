@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+form {
+	position:relative;
+	top:-10px;
+}
+
+.login {
+	font:14px Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	position:relative;
+	top:60px;
+	width:310px;
+	margin:0 auto;
+	background:rgba(204,204,204,1.00);
+	text-align:center;
+	padding:20px;
+	border-radius:8px;
+	-webkit-box-shadow: 0px 0px 30px 0px rgba(102, 102, 102, 0.75);
+	-moz-box-shadow:    0px 0px 30px 0px rgba(102, 102, 102, 0.75);
+	box-shadow:         0px 0px 30px 0px rgba(102, 102, 102, 0.75);
+
+}
+
+.login h1 {
+	position:relative;
+	height:40px;
+	width:350px;
+	left:-20px;
+	top:-30px;
+	padding-top: 15px;
+	font-size:13px;
+	background:rgba(255,102,0,1.00);
+	border-radius:8px 8px 0px 0px;
+	border-bottom:rgba(0,153,255,1.00) 1px solid;
+}
+
+input {
+	display:block;
+	margin:0 auto;
+	padding:5px;
+	height:10px;
+}
+
+input[type=submit] {
+	padding:0px 24px;
+	height:30px;
+	font-size:12px;
+	font-weight:bold;
+	color:rgba(204,255,255,1.00);
+	background:rgba(255,102,0,1.00);
+	border:1px solid;
+	border-radius:16px;
+}
+
+#errMessage {
+	font:12px Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	position:absolute;
+	left:100px;
+	padding:5px 15px 5px 15px;
+	top:45px;
+	background:rgba(255,204,204,1);
+	border-radius:8px;
+	border:3px double rgba(204,51,51,0.75);
+}
